@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 1000px ;
+	height: 1000px;
+	margin: 20px auto;
+	
+	font-family: helvetica,arial;
+}
+header nav ul{
+	background: black;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+header nav ul li {
+	display: inline-block;
+
+
+}
+header nav ul li a{
+	text-decoration: none;
+	display: block;
+	
+	
+	margin-top: px;
+	padding: 15.8px;
+	color:white;
+}
+header nav ul li a:hover{
+	color:black;
+	background: white;
+}
+header h1{
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	border-right: 1px solid black;
+	border-left :1px solid black;
+	border-bottom:1px solid black;
+	padding: 10px;
+
+}
+ .main{
+	width: 700px;
+	height: 700px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float:left;
+}
+aside{
+	width: 300px;
+	height: 700px;
+	float: left;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+
+}
+aside h3{
+	text-align: center;
+	border-bottom: 1px solid black;
+	background: black;
+	color:white;
+
+}
+aside h3 .widget{
+	width: 300px;
+
+}
+aside .widget h5{
+	text-align: left;
+	font-size: 15px;
+}
+aside .widget h4{
+	text-align: center;
+	font-size: 20px;
+	margin: 3px;
+}
+aside .widget {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
